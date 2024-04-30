@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+  /* font-family: "Pixelify Sans", sans-serif; */
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+
+  color-scheme: light dark;
+  color: #ffffffde;
+  background-color: #242424;
+
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.jacquarda {
+  font-family: "Jacquarda Bastarda 9", serif;
+  letter-spacing: 3px;
+}
+
+.geralt {
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.geralt img {
+  position: relative;
+  right: 14px;
+}
+
+.status {
+  margin: 20px 0 5px 0;
+}
+
+.status p {
+  margin: 0px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.button-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px;
+  gap: 10px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 30px;
+  line-height: 0px;
+  text-align: center;
+
+  margin: 30px auto;
+
+  width: 100px;
+  height: 30px;
+  box-shadow:   
+    -4px 0 0 0 #ffffffde,
+    4px 0 0 0 #ffffffde,
+    0 -4px 0 0 #ffffffde,
+    0 4px 0 0 #ffffffde;
+}
+
